@@ -42,7 +42,18 @@
 		60E3A37227C51256007A4597 /* DSKit in Frameworks */ = {isa = PBXBuildFile; productRef = 60E3A37127C51256007A4597 /* DSKit */; };
 		60E3A37427C51256007A4597 /* DSKitCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 60E3A37327C51256007A4597 /* DSKitCalendar */; };
 		60E3A37627C51256007A4597 /* DSKitFakery in Frameworks */ = {isa = PBXBuildFile; productRef = 60E3A37527C51256007A4597 /* DSKitFakery */; };
+		60E3A39227C51D04007A4597 /* BarbershopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E3A39127C51D04007A4597 /* BarbershopTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60E3A39327C51D04007A4597 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60CE87DB27B55F5A0084493C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60CE87E227B55F5A0084493C;
+			remoteInfo = Barbershop;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		60CE87E327B55F5A0084493C /* Barbershop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Barbershop.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +90,8 @@
 		60CE882B27B55FE10084493C /* BookingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingManager.swift; sourceTree = "<group>"; };
 		60CE882C27B55FE10084493C /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		60D4E11827C4D79C006DC65A /* RetroAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetroAppearance.swift; sourceTree = "<group>"; };
+		60E3A38F27C51D04007A4597 /* BarbershopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarbershopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60E3A39127C51D04007A4597 /* BarbershopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarbershopTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +105,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		60E3A38C27C51D04007A4597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -100,6 +120,7 @@
 			children = (
 				60CE87E527B55F5A0084493C /* Barbershop */,
 				60CE883127B560230084493C /* Packages */,
+				60E3A39027C51D04007A4597 /* BarbershopTests */,
 				60CE87E427B55F5A0084493C /* Products */,
 				60CE883327B5603F0084493C /* Frameworks */,
 			);
@@ -109,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				60CE87E327B55F5A0084493C /* Barbershop.app */,
+				60E3A38F27C51D04007A4597 /* BarbershopTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -207,6 +229,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		60E3A39027C51D04007A4597 /* BarbershopTests */ = {
+			isa = PBXGroup;
+			children = (
+				60E3A39127C51D04007A4597 /* BarbershopTests.swift */,
+			);
+			path = BarbershopTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -232,6 +262,24 @@
 			productReference = 60CE87E327B55F5A0084493C /* Barbershop.app */;
 			productType = "com.apple.product-type.application";
 		};
+		60E3A38E27C51D04007A4597 /* BarbershopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60E3A39727C51D04007A4597 /* Build configuration list for PBXNativeTarget "BarbershopTests" */;
+			buildPhases = (
+				60E3A38B27C51D04007A4597 /* Sources */,
+				60E3A38C27C51D04007A4597 /* Frameworks */,
+				60E3A38D27C51D04007A4597 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60E3A39427C51D04007A4597 /* PBXTargetDependency */,
+			);
+			name = BarbershopTests;
+			productName = BarbershopTests;
+			productReference = 60E3A38F27C51D04007A4597 /* BarbershopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -244,6 +292,10 @@
 				TargetAttributes = {
 					60CE87E227B55F5A0084493C = {
 						CreatedOnToolsVersion = 13.2.1;
+					};
+					60E3A38E27C51D04007A4597 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 60CE87E227B55F5A0084493C;
 					};
 				};
 			};
@@ -264,6 +316,7 @@
 			projectRoot = "";
 			targets = (
 				60CE87E227B55F5A0084493C /* Barbershop */,
+				60E3A38E27C51D04007A4597 /* BarbershopTests */,
 			);
 		};
 /* End PBXProject section */
@@ -276,6 +329,13 @@
 				60CE87F327B55F5F0084493C /* LaunchScreen.storyboard in Resources */,
 				60CE87F027B55F5F0084493C /* Assets.xcassets in Resources */,
 				60CE87EE27B55F5A0084493C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60E3A38D27C51D04007A4597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +378,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		60E3A38B27C51D04007A4597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E3A39227C51D04007A4597 /* BarbershopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60E3A39427C51D04007A4597 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60CE87E227B55F5A0084493C /* Barbershop */;
+			targetProxy = 60E3A39327C51D04007A4597 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		60CE87EC27B55F5A0084493C /* Main.storyboard */ = {
@@ -512,6 +588,40 @@
 			};
 			name = Release;
 		};
+		60E3A39527C51D04007A4597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Imodeveloperlab.BarbershopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Barbershop.app/Barbershop";
+			};
+			name = Debug;
+		};
+		60E3A39627C51D04007A4597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Imodeveloperlab.BarbershopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Barbershop.app/Barbershop";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -529,6 +639,15 @@
 			buildConfigurations = (
 				60CE87F827B55F5F0084493C /* Debug */,
 				60CE87F927B55F5F0084493C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60E3A39727C51D04007A4597 /* Build configuration list for PBXNativeTarget "BarbershopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60E3A39527C51D04007A4597 /* Debug */,
+				60E3A39627C51D04007A4597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
