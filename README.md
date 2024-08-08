@@ -3,6 +3,12 @@
     <img src="https://d33wubrfki0l68.cloudfront.net/a55f31bec2439b79efd447c91df589ba39c95962/9570c/images/app/barbershop-demo-app.png" width="50%" alt="DSKit"/>
 </p>
 
+> [!WARNING]
+> Support for the **UIKit** version of DSKit is discontinued as the focus shifts increasingly towards **SwiftUI**, which offers easier development and maintenance. For more information or to migrate, please visit the <a href="https://github.com/imodeveloperlab/dskit-swiftui">**SwiftUI** version.
+
+Welcome to **DSKit** a Design System for iOS 13+ is an iOS SDK written in Swift with a collection of reusable components, guided by clear standards, that can be assembled to build any number of applications.
+
+
 <p align="center">
 This project is powered by <a href="https://github.com/imodeveloperlab/dskit"> DSKit </a> a Design System Kit for iOS 13+, an iOS SDK written in Swift with a collection of reusable components, guided by clear standards, that can be assembled to build any number of applications.
 </p>
